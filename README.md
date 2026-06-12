@@ -23,22 +23,24 @@ infrastructure automation and CI/CD pipelines.
 | AWS ALB        | Load Balancer          |
 
 ## Project Structure
+```
 eks-devops-project/
 ├── app/
-│   ├── app.py          # Flask application
-│   ├── Dockerfile      # Container definition
+│   ├── app.py              # Flask application
+│   ├── Dockerfile          # Container definition
 │   └── requirements.txt
 ├── kubernetes/
-│   ├── deployment.yaml # K8s deployment
-│   ├── service.yaml    # Load balancer service
-│   └── hpa.yaml        # Autoscaler config
+│   ├── deployment.yaml     # K8s deployment
+│   ├── service.yaml        # Load balancer service
+│   └── hpa.yaml            # Autoscaler config
 ├── terraform/
-│   ├── main.tf         # VPC + EKS infrastructure
-│   ├── variables.tf    # Input variables
-│   └── outputs.tf      # Output values
+│   ├── main.tf             # VPC + EKS infrastructure
+│   ├── variables.tf        # Input variables
+│   └── outputs.tf          # Output values
 └── .github/
-└── workflows/
-└── deploy.yml  # CI/CD pipeline
+    └── workflows/
+        └── deploy.yml      # CI/CD pipeline
+```
 
 ## How It Works
 1. Developer pushes code to GitHub
