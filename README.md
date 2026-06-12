@@ -1,3 +1,4 @@
+<img width="2720" height="2480" alt="aws_eks_devops_architecture" src="https://github.com/user-attachments/assets/1ad973c3-3a80-458e-b924-618ca489963a" />
 # Autoscaling Web Application on AWS EKS
 
 A production-grade DevOps project demonstrating cloud-native 
